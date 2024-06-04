@@ -1,0 +1,374 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+select,
+table,
+td,
+textarea,
+th,
+ul,
+span,
+strong,
+em {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-size: 18px;
+    /* 1rem지정 */
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    line-height: 1.2rem;
+    color: #383838;
+    font-style: normal;
+    font-family: 'GmarketSansMedium';
+    font-weight: lighter;
+}
+
+.inner {
+    width: 1620px;
+    margin: 0 auto;
+}
+
+/* quick */
+.quick{
+    position: fixed;
+    right: 0;
+    top: 30%;
+    z-index: 999;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 50px 0 0 50px;
+    padding: 0px 5px 40px 10px;
+    border-bottom: 2px solid rgb(96, 154, 110);
+    border-top: 2px solid rgb(96, 154, 110);
+    border-left: 2px solid rgb(96, 154, 110);
+}
+
+.quick li{
+    padding-top: 100px;
+    background: no-repeat center center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(157, 183, 163);
+    cursor: pointer;
+}
+
+.quick li .bar{
+    height: 2px;
+    width: 50px;
+    background-color: rgba(96, 154, 110, 0);
+    margin-left: 25px;
+}
+
+.quick li:hover .bar{
+    background-color: rgb(96, 154, 110);
+}
+
+.quick li:nth-child(1){
+    background-image: url(../image/quick/1.png);
+}
+.quick li:nth-child(2){
+    background-image: url(../image/quick/2.png);
+}
+.quick li:nth-child(3){
+    background-image: url(../image/quick/3.png);
+}
+
+/* ---------------header */
+
+header {
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-top: 40px;
+}
+
+.gnb li {
+    width: 15%;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: lighter;
+    color: rgb(96, 154, 110);
+}
+
+/*---------------------------------  */
+
+#main_banner {
+    position: relative;
+}
+
+#main_banner img {
+    width: 100%;
+}
+
+#main_banner .hand {
+    position: absolute;
+    left: 150px;
+    bottom: -26px;
+    z-index: 0;
+}
+
+#main_banner .white{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    bottom: -592px;
+}
+
+.action1{
+    transform: translate(0px,550px);
+    transition:  all 1s linear;
+}
+
+.action2{
+    transform: translate(0px,450px);
+    opacity: 1;
+    transition:  all 0.8s linear 0.45s;
+}
+
+.action3{
+  opacity: 0;
+}
+
+#main_banner .mix{
+    position: absolute;
+    left: 750px;
+    bottom: 0px;
+}
+
+
+/* ------------------------------------ */
+
+
+
+/* .back{
+    background-color: rgb(255, 0, 0);
+    width:500px;
+    height: 150px;
+    position: absolute;
+    left: 600px;
+    top: -290px;
+    z-index: 5;
+}  */
+
+
+
+.section {
+    margin-top: 80px;
+ }
+
+ h2 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: lighter;
+    color: rgb(96, 154, 110);
+}
+
+ 
+h3 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    color: rgb(96, 154, 110);
+}
+
+p{
+    line-height:30px;
+}
+
+.right {
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+/* --------------------------- */
+
+#section1{
+   padding-top: 50px;
+}
+
+#section1  .point{
+    padding-bottom: 100px;
+}
+
+#section1  .point1, #section1  .point2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#section1 .s1im1{
+    margin-top: 100px;
+}
+
+#section1 .s1im2{
+    margin-bottom: 50px;
+}
+
+#section1 .s1im4{
+    margin-top: 50px;
+}
+
+
+#section1 .smoke{
+    position: absolute;
+    left: 0px;
+   bottom: 100px;
+}
+
+/*  ---------------------------------------*/
+#section2{
+    padding-top: 50px;
+    background-color: rgb(179, 215, 189);
+    height: 550px;
+}
+
+#section2 ul{
+    display: flex;
+    justify-content: space-between;
+    width:1250px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#section2 ul li{
+    width: 17%;
+    text-align: center;
+    color: #fff;
+}
+
+#section2 ul li div{
+    border-radius: 500px;
+    height: 300px;
+    margin-bottom: 50px;
+    box-shadow: -10px 10px 0px  rgb(86, 111, 97);
+    background: no-repeat center center  rgb(125, 156, 139);
+}
+
+#section2 ul li:nth-child(1) div{
+  background-image: url(../image/section2/1w.png);
+}
+#section2 ul li:nth-child(2) div{
+  background-image: url(../image/section2/2w.png);
+}
+#section2 ul li:nth-child(3) div{
+  background-image: url(../image/section2/3w.png);
+}
+#section2 ul li:nth-child(4) div{
+  background-image: url(../image/section2/4w.png);
+}
+#section2 ul li:nth-child(5) div{
+  background-image: url(../image/section2/5w.png);
+}
+
+#section2 ul li:hover div{
+    background: no-repeat center center  rgb(255, 255, 255);
+   transform: translate(0px, -15px);
+   transition: transform 0.1s linear;
+}
+
+#section2 ul li:nth-child(1):hover div{
+  background-image: url(../image/section2/1.png);
+}
+#section2 ul li:nth-child(2):hover div{
+  background-image: url(../image/section2/2.png);
+}
+#section2 ul li:nth-child(3):hover div{
+  background-image: url(../image/section2/3.png);
+}
+#section2 ul li:nth-child(4):hover div{
+  background-image: url(../image/section2/4.png);
+}
+#section2 ul li:nth-child(5):hover div{
+  background-image: url(../image/section2/5.png);
+}
+
+/* --------------------------------------------------- */
+
+#section3 .point{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#section3 div{
+    border-radius: 60px;
+}
+
+#section3 .s3c1{
+    background-color: antiquewhite;
+    width: 650px;
+}
+
+#section3 .s3c{
+    background-color: antiquewhite;
+    width: 650px;
+}
