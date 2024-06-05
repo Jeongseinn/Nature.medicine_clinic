@@ -78,7 +78,7 @@ body {
 }
 
 /* quick */
-.quick{
+.quick {
     position: fixed;
     right: 0;
     top: 30%;
@@ -92,7 +92,7 @@ body {
     border-left: 2px solid rgb(96, 154, 110);
 }
 
-.quick li{
+.quick li {
     padding-top: 100px;
     background: no-repeat center center;
     text-align: center;
@@ -102,24 +102,26 @@ body {
     cursor: pointer;
 }
 
-.quick li .bar{
+.quick li .bar {
     height: 2px;
     width: 50px;
     background-color: rgba(96, 154, 110, 0);
     margin-left: 25px;
 }
 
-.quick li:hover .bar{
+.quick li:hover .bar {
     background-color: rgb(96, 154, 110);
 }
 
-.quick li:nth-child(1){
+.quick li:nth-child(1) {
     background-image: url(../image/quick/1.png);
 }
-.quick li:nth-child(2){
+
+.quick li:nth-child(2) {
     background-image: url(../image/quick/2.png);
 }
-.quick li:nth-child(3){
+
+.quick li:nth-child(3) {
     background-image: url(../image/quick/3.png);
 }
 
@@ -170,7 +172,7 @@ header {
     z-index: 0;
 }
 
-#main_banner .white{
+#main_banner .white {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 600px;
@@ -179,22 +181,22 @@ header {
     bottom: -592px;
 }
 
-.action1{
-    transform: translate(0px,550px);
-    transition:  all 1s linear;
+.action1 {
+    transform: translate(0px, 550px);
+    transition: all 1s linear;
 }
 
-.action2{
-    transform: translate(0px,450px);
+.action2 {
+    transform: translate(0px, 450px);
     opacity: 1;
-    transition:  all 0.8s linear 0.45s;
+    transition: all 0.8s linear 0.45s;
 }
 
-.action3{
-  opacity: 0;
+.action3 {
+    opacity: 0;
 }
 
-#main_banner .mix{
+#main_banner .mix {
     position: absolute;
     left: 750px;
     bottom: 0px;
@@ -219,16 +221,16 @@ header {
 
 .section {
     margin-top: 80px;
- }
+}
 
- h2 {
+h2 {
     font-size: 45px;
     line-height: 55px;
     font-weight: lighter;
     color: rgb(96, 154, 110);
 }
 
- 
+
 h3 {
     font-size: 35px;
     line-height: 45px;
@@ -237,138 +239,294 @@ h3 {
     color: rgb(96, 154, 110);
 }
 
-p{
-    line-height:30px;
+p {
+    line-height: 30px;
 }
 
 .right {
     text-align: right;
 }
 
-.center{
+.center {
     text-align: center;
+}
+
+.wt {
+    color: #fff;
 }
 
 /* --------------------------- */
 
-#section1{
-   padding-top: 50px;
+#section1 {
+    padding-top: 50px;
 }
 
-#section1  .point{
+#section1 .point {
     padding-bottom: 100px;
 }
 
-#section1  .point1, #section1  .point2{
+#section1 .point1,
+#section1 .point2 {
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
-#section1 .s1im1{
+#section1 .s1im1 {
     margin-top: 100px;
 }
 
-#section1 .s1im2{
+#section1 .s1im2 {
     margin-bottom: 50px;
 }
 
-#section1 .s1im4{
+#section1 .s1im4 {
     margin-top: 50px;
 }
 
 
-#section1 .smoke{
+#section1 .smoke {
     position: absolute;
     left: 0px;
-   bottom: 100px;
+    bottom: 100px;
 }
 
 /*  ---------------------------------------*/
-#section2{
+#section2 {
     padding-top: 50px;
     background-color: rgb(179, 215, 189);
     height: 550px;
 }
 
-#section2 ul{
+#section2 ul {
     display: flex;
     justify-content: space-between;
-    width:1250px;
+    width: 1250px;
     margin: 0 auto;
     padding-top: 50px;
 }
 
-#section2 ul li{
+#section2 ul li {
     width: 17%;
     text-align: center;
     color: #fff;
 }
 
-#section2 ul li div{
+#section2 ul li div {
     border-radius: 500px;
     height: 300px;
     margin-bottom: 50px;
-    box-shadow: -10px 10px 0px  rgb(86, 111, 97);
-    background: no-repeat center center  rgb(125, 156, 139);
+    box-shadow: -10px 10px 0px rgb(86, 111, 97);
+    background: no-repeat center center rgb(125, 156, 139);
 }
 
-#section2 ul li:nth-child(1) div{
-  background-image: url(../image/section2/1w.png);
-}
-#section2 ul li:nth-child(2) div{
-  background-image: url(../image/section2/2w.png);
-}
-#section2 ul li:nth-child(3) div{
-  background-image: url(../image/section2/3w.png);
-}
-#section2 ul li:nth-child(4) div{
-  background-image: url(../image/section2/4w.png);
-}
-#section2 ul li:nth-child(5) div{
-  background-image: url(../image/section2/5w.png);
+#section2 ul li:nth-child(1) div {
+    background-image: url(../image/section2/1w.png);
 }
 
-#section2 ul li:hover div{
-    background: no-repeat center center  rgb(255, 255, 255);
-   transform: translate(0px, -15px);
-   transition: transform 0.1s linear;
+#section2 ul li:nth-child(2) div {
+    background-image: url(../image/section2/2w.png);
 }
 
-#section2 ul li:nth-child(1):hover div{
-  background-image: url(../image/section2/1.png);
+#section2 ul li:nth-child(3) div {
+    background-image: url(../image/section2/3w.png);
 }
-#section2 ul li:nth-child(2):hover div{
-  background-image: url(../image/section2/2.png);
+
+#section2 ul li:nth-child(4) div {
+    background-image: url(../image/section2/4w.png);
 }
-#section2 ul li:nth-child(3):hover div{
-  background-image: url(../image/section2/3.png);
+
+#section2 ul li:nth-child(5) div {
+    background-image: url(../image/section2/5w.png);
 }
-#section2 ul li:nth-child(4):hover div{
-  background-image: url(../image/section2/4.png);
+
+#section2 ul li:hover div {
+    background: no-repeat center center rgb(255, 255, 255);
+    transform: translate(0px, -15px);
+    transition: transform 0.1s linear;
 }
-#section2 ul li:nth-child(5):hover div{
-  background-image: url(../image/section2/5.png);
+
+#section2 ul li:nth-child(1):hover div {
+    background-image: url(../image/section2/1.png);
+}
+
+#section2 ul li:nth-child(2):hover div {
+    background-image: url(../image/section2/2.png);
+}
+
+#section2 ul li:nth-child(3):hover div {
+    background-image: url(../image/section2/3.png);
+}
+
+#section2 ul li:nth-child(4):hover div {
+    background-image: url(../image/section2/4.png);
+}
+
+#section2 ul li:nth-child(5):hover div {
+    background-image: url(../image/section2/5.png);
 }
 
 /* --------------------------------------------------- */
 
-#section3 .point{
+#section3 .point {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
-#section3 div{
+#section3 div {
     border-radius: 60px;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
-#section3 .s3c1{
-    background-color: antiquewhite;
+#section3 .s3c1 {
+    background: url(../image/section3/1.png) no-repeat right 50px bottom 50px rgb(210, 210, 210);
+    width: 650px;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+#section3 .s3c1 p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#section3 .s3c1 .mon {
+    letter-spacing: 4px;
+}
+
+#section3 .s3c1 .sat {
+    letter-spacing: 30px;
+}
+
+#section3 .s3c2,
+#section3 .s3c3 {
+    height: 478px;
+    width: 916px;
+    text-align: center;
+    color: #fff;
+    padding-top: 210px;
+}
+
+#section3 .s3c2 {
+    background: url(../image/section3/doct.png) no-repeat left top;
+}
+
+#section3 .s3c3 {
+    background: url(../image/section3/hosp.png) no-repeat left top;
+}
+
+#section3 .s3c4 {
     width: 650px;
 }
 
-#section3 .s3c{
-    background-color: antiquewhite;
-    width: 650px;
+#section3 .s3c5 {
+    background: url(../image/section3/tree.png) no-repeat center;
+    height: 220px;
+    width: 200px;
+}
+
+#section3 .s3c6 {
+    background: url(../image/section3/4.png) no-repeat left 60px center rgb(95, 134, 112);
+    height: 220px;
+    width: 400px;
+    padding-top: 90px;
+    padding-left: 140px;
+}
+
+#section3 .s3c7 {
+    background: url(../image/section3/5.png) no-repeat right 100px center rgb(162, 193, 171);
+    height: 220px;
+    margin-top: 37px;
+    padding-top: 90px;
+    padding-left: 140px;
+}
+
+/* ------------------------------------- */
+
+#section4 {
+    display: flex;
+}
+
+#section4 .box {
+    background: url(../image/section45/tree.png) no-repeat left 250px bottom 0px rgb(179, 215, 189);
+    width: 500px;
+    padding-left: 150px;
+    padding-top: 50px;
+    border-radius: 0 50px 0 0;
+}
+
+#section4 .line {
+    margin-top: 80px;
+    width: 1110px;
+    border-top: 5px solid rgb(179, 215, 189);
+}
+
+#section4 .line li {
+    display: flex;
+    padding: 20px 0 20px 50px;
+    border-bottom: 2px solid rgb(179, 215, 189);
+}
+
+#section4 .line li strong {
+    font-size: 23px;
+}
+
+
+#section4 .line li .date {
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 40px;
+    width: 90px;
+    color: rgb(96, 154, 110);
+}
+
+#section4 .line li:nth-child(1) .date {
+    background: url(../image/section45/15.png) no-repeat left 10px top;
+}
+
+#section4 .line li:nth-child(2) .date {
+    background: url(../image/section45/20.png) no-repeat left top;
+}
+
+/* ------------------ */
+
+#section5 {
+    display: flex;
+    margin-bottom: 500px;
+}
+
+#section5 .map_box {
+    margin-top: 110px;
+    width: 1120px;
+    margin-left: 145px;
+    position: relative;
+}
+
+#section5 .box {
+    background: rgb(95, 134, 112);
+    width: 500px;
+    padding-left: 150px;
+    padding-top: 50px;
+    border-radius: 50px 0 0 0;
+    height: 750px;
+}
+
+#section5 .map {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+}
+
+
+#section5 .frame {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(95, 134, 112);
+    top: 0px;
+    left: 0px;
+    z-index: 3;
 }
