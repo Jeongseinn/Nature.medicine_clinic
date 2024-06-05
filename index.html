@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="header_inner inner">
-            <h1 class="logo">
+            <h1 clazlss="logo">
                 <a href="index.html"> <img src="./image/logo.png" alt=""></a>
             </h1>
             <div>
@@ -25,20 +25,20 @@
             </div>
         </div>
     </header>
-        <ul class="quick">
-            <li>
-                <h4>전화문의</h4>
-                <div class="bar"></div>
-            </li>
-            <li>
-                <h4>온라인상담</h4>
-                <div class="bar"></div>
-            </li>
-            <li>
-                <h4>카카오톡</h4>
-<div class="bar"></div>
-            </li>
-        </ul>
+    <ul class="quick">
+        <li>
+            <h4>전화문의</h4>
+            <div class="bar"></div>
+        </li>
+        <li>
+            <h4>온라인상담</h4>
+            <div class="bar"></div>
+        </li>
+        <li>
+            <h4>카카오톡</h4>
+            <div class="bar"></div>
+        </li>
+    </ul>
     <div id="main_banner">
         <img src="./image/mainbanner.png" alt="">
         <div class="hand">
@@ -158,52 +158,122 @@
                 <h3>
                     진료시간안내
                 </h3>
+                <p>
+                    <span class="mon"> 월 ~ </span>금 09:00 ~ 18:00
+                    <br>
+                    <span class="sat">주</span> 말 09:00 ~ 14:00
+                    <br>
+                    점심시간 12:30 ~ 14:00
+                </p>
             </div>
             <div class="s3c2">
-                <img src="./image/section3/doct.png" alt="">
+                <h3 class="wt">
+                    의료진 소개
+                </h3>
+                <p>
+                    믿고, 안심할 수 있는, 수준높은 의료서비스로 최선을 다하겠습니다.
+                </p>
             </div>
         </div>
         <div class="point">
             <div class="s3c3">
-                <img src="./image/section3/hosp.png" alt="">
+                <h3 class="wt">
+                    시설소개
+                </h3>
+                <p>
+                    환자를 먼저 생각하는 시스템과 믿고 맡길 수 있는 체계화된 환경을 제공합니다.
+                </p>
             </div>
             <div class="s3c4">
-                <div>
-                <div class="logo_s">
+                <div class="logo_s point">
                     <div class="s3c5"></div>
-                    <div class="s3c6"></div>
+                    <div class="s3c6">
+                        <h3 class="wt">
+                            증명서 발급
+                        </h3>
+                    </div>
                 </div>
-                <div class="s3c6"></div>
+                <div class="s3c7">
+                    <h3 class="wt">
+                        입/퇴원 신청
+                    </h3>
+                </div>
             </div>
-            </div>
+        </div>
+    </div>
+    <div id="section4" class="section">
+        <div class="box">
+            <h3 class="wt">
+                자연한방병원
+                <br>공지사항
+            </h3>
+            <p class="wt">자세히 보기</p>
+        </div>
+        <ul class="line">
+            <li>
+                <div class="date">
+                    <h4 class="month">24.05.</h4>
+                </div>
+                <div class="mes">
+                    <p>
+                        <strong>자연한방병원 네이버 예약 오픈</strong>
+                       <br> 기다릴 필요 없이 네이버 예약으로 간편하게 예약이 가능합니다.
+                        <br>자연한방병원 내원 시 신분증을 꼭 챙겨주시길 바랍니다.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="date">
+                    <h4 class="month">24.04.</h4>
+                </div>
+                <div class="mes">
+                    <p>
+                        <strong>병원 접수 시, 신분증 확인 필수</strong>
+                      <br>  기다릴 필요 없이 네이버 예약으로 간편하게 예약이 가능합니다.
+                        <br>네이버에서 "자연한방병원" 검색 후 네이버 예약 버튼으로 쉽고 빠르게 예약하세요.
+                    </p>
+                </div>
+            </li>
+    </div>
+    <div id="section5" class="section">
+        <div class="map_box">
+          <div class="map">
+            <img src="./image/section45/map.png" alt="">
+          </div>
+          <div class="frame"></div>
+        </div>
+        <div class="box">
+            <h3 class="wt">
+                자연한방병원 오시는 길
+            </h3>
         </div>
     </div>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="js/script.js"></script>
 <script>
-$(function () {
-    $(".submenu").hide();
+    $(function () {
+        $(".submenu").hide();
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $(".hand").addClass("action1")
-        } else {
-            $(".hand").removeClass("action1")
-        }
-    });
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $(".hand").addClass("action1")
+            } else {
+                $(".hand").removeClass("action1")
+            }
+        });
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $(".mix").addClass("action2")
-            $(".mix").removeClass("action3")
-        } else {
-            $(".mix").addClass("action3")
-            $(".mix").removeClass("action2")
-        }
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $(".mix").addClass("action2")
+                $(".mix").removeClass("action3")
+            } else {
+                $(".mix").addClass("action3")
+                $(".mix").removeClass("action2")
+            }
+        });
     });
-});
 
 </script>
+
 </html>
